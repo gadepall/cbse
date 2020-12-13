@@ -1,0 +1,43 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item  Reduce the following Boolean Expression to its simplest form using K-Map :
+\begin{align}
+F(P,Q,R,S) = \sum (0,1,2,3,5,6,7,10,14,15) 
+\end{align}
+\solution  The logic expression is obtained from Fig. \ref{fig:2019_6d}
+as
+\begin{equation}
+ F = P^{\prime}Q + RS^{\prime}+ P^{\prime}S + QR
+\end{equation}
+ %
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}
+{
+\begin{karnaugh-map}[4][4][1][][]
+    \maxterms{4,8,9,11,12,13}
+    \minterms{0,1,2,3,5,6,7,10,14,15}
+    \implicant{0}{2}
+    \implicant{1}{7}
+    \implicant{2}{10}
+    \implicant{7}{14}
+    % note: position\implicant{1}{7} for start of \draw is (0, Y) where Y is
+    % the Y size(number of cells high) in this case Y=2
+    \draw[color=black, ultra thin] (0, 4) --
+    node [pos=0.7, above right, anchor=south west] {$RS$} % YOU CAN CHANGE NAME OF VAR HERE, THE $X$ IS USED FOR ITALICS
+    node [pos=0.7, below left, anchor=north east] {$PQ$} % SAME FOR THIS
+    ++(135:1);
+        
+    \end{karnaugh-map}
+}
+\caption{}
+\label{fig:2019_6d}
+\end{figure}
+\end{enumerate}
+%
+%
