@@ -1,1 +1,2 @@
-\contentsline {section}{\numberline {1}Linear Forms}{1}{section.1}%
+\contentsline {section}{\numberline {1}Vectors}{1}{section.1}%
+\contentsline {section}{\numberline {2}Linear Forms}{1}{section.2}%
