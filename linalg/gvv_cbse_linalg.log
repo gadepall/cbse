@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  18 JUL 2021 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  20 JUL 2021 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1604,36 +1604,47 @@ File: vectors/solutions/2008/14/Collinear.png Graphic file (type png)
 Package pdftex.def Info: vectors/solutions/2008/14/Collinear.png  used on input
  line 38.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-))
-(./linear_forms/problems.tex
-(./linear_forms/solutions/2006/2/11/Assignment 1_New_Edited_9.tex [1{/var/lib/t
-exmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+(./vectors/solutions/2006/17/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./vectors/solutions/2008/14/Collinear.png>]
+<vectors/solutions/2006/17/collinear.png, id=78, 397.485pt x 268.00125pt>
+File: vectors/solutions/2006/17/collinear.png Graphic file (type png)
+<use vectors/solutions/2006/17/collinear.png>
+Package pdftex.def Info: vectors/solutions/2006/17/collinear.png  used on input
+ line 36.
+(pdftex.def)             Requested size: 252.0pt x 169.91309pt.
+)) (./linear_forms/problems.tex
+(./linear_forms/solutions/2006/2/11/Assignment 1_New_Edited_9.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<linear_forms/solutions/2006/2/11/Figures/line.pdf, id=83, 433.62pt x 289.08pt>
-
+ [2 <./vectors/solutions/2006/17/collinear.png>]
+<linear_forms/solutions/2006/2/11/Figures/line.pdf, id=117, 433.62pt x 289.08pt
+>
 File: linear_forms/solutions/2006/2/11/Figures/line.pdf Graphic file (type pdf)
 
 <use linear_forms/solutions/2006/2/11/Figures/line.pdf>
 Package pdftex.def Info: linear_forms/solutions/2006/2/11/Figures/line.pdf  use
 d on input line 106.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-)) [2 <./linear_forms/solutions/2006/2/11/Figures/line.pdf>] (./gvv_cbse_linalg
-.aux)
+)) [3
+
+ <./linear_forms/solutions/2006/2/11/Figures/line.pdf>] (./gvv_cbse_linalg.aux)
 Package rerunfilecheck Info: File `gvv_cbse_linalg.out' has not changed.
 (rerunfilecheck)             Checksum: 4E9511405D35F10E796B4E736849A702;184.
  ) 
 Here is how much of TeX's memory you used:
- 44182 strings out of 478994
- 986493 string characters out of 5864752
- 1530723 words of memory out of 5000000
- 60786 multiletter control sequences out of 15000+600000
+ 44206 strings out of 478994
+ 987031 string characters out of 5864752
+ 1535769 words of memory out of 5000000
+ 60793 multiletter control sequences out of 15000+600000
  484389 words of font info for 203 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 102i,18n,111p,507b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,18n,111p,507b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-dist/fonts/type1/public/txf
 onts/rtxr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr
@@ -1643,10 +1654,10 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on gvv_cbse_linalg.pdf (2 pages, 77287 bytes).
+Output written on gvv_cbse_linalg.pdf (3 pages, 88980 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
