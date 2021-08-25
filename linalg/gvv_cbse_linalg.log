@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  20 AUG 2021 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.20)  25 AUG 2021 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,8 +114,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/home/user/texmf/tex/latex/tmeslatex/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -127,63 +127,28 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen162
 ))
-(/home/user/texmf/tex/latex/tmeslatex/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen163
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count194
-LaTeX Info: Redefining \tmspace on input line 145.
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count195
 \leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 399.
 \classnum@=\count197
 \DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
 \big@size=\dimen164
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-
-
-Package amsmath Warning: Unable to redefine math accent \hat.
-
-
-Package amsmath Warning: Unable to redefine math accent \check.
-
-
-Package amsmath Warning: Unable to redefine math accent \tilde.
-
-
-Package amsmath Warning: Unable to redefine math accent \acute.
-
-
-Package amsmath Warning: Unable to redefine math accent \grave.
-
-
-Package amsmath Warning: Unable to redefine math accent \dot.
-
-
-Package amsmath Warning: Unable to redefine math accent \ddot.
-
-
-Package amsmath Warning: Unable to redefine math accent \breve.
-
-
-Package amsmath Warning: Unable to redefine math accent \bar.
-
-
-Package amsmath Warning: Unable to redefine math accent \vec.
-
-
-Package amsmath Warning: Unable to redefine math accent \mathring.
-
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count199
 \c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
@@ -204,9 +169,10 @@ Package amsmath Warning: Unable to redefine math accent \mathring.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -364,7 +330,7 @@ Package: cite 2015/02/27  v 5.5
 Package: cases 2020/03/29 ver 3.2
 \numc@numwid=\dimen179
 )
-(/home/user/texmf/tex/latex/tfslatex/subfig.sty
+(/home/user/texmf/tex/latex/tfs/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
@@ -471,13 +437,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-
-LaTeX Warning: You have requested, on input line 117, version
-               `2016/11/05' of package amsmath,
-               but only version
-               `2000/07/18 v2.13 AMS math features'
-               is available.
-
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
@@ -493,7 +452,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen199
 \xmathstrut@box=\box57
 \xmathstrut@dim=\dimen256
-) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -512,8 +472,8 @@ Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/user/texmf/tex/latex/tmeslatex/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
@@ -1598,14 +1558,17 @@ File: utxsyc.fd 2000/12/15 v3.1
 
 
 (./vectors/problems.tex (./vectors/solutions/2008/14/main.tex
+Overfull \hbox (2.94481pt too wide) detected at line 11
+[]
+ []
+
 <vectors/solutions/2008/14/Collinear.png, id=42, 387.4475pt x 262.9825pt>
 File: vectors/solutions/2008/14/Collinear.png Graphic file (type png)
 <use vectors/solutions/2008/14/Collinear.png>
 Package pdftex.def Info: vectors/solutions/2008/14/Collinear.png  used on input
  line 38.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-)
-(./vectors/solutions/2006/17/main.tex
+) (./vectors/solutions/2006/17/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1650,17 +1613,25 @@ File: linear_forms/solutions/2006/2/11/Figures/line.pdf Graphic file (type pdf)
 Package pdftex.def Info: linear_forms/solutions/2006/2/11/Figures/line.pdf  use
 d on input line 106.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-)) [4
+) (./linear_forms/solutions/1/b/main.tex
+<linear_forms/solutions/1/b/Figure.png, id=168, 433.62pt x 289.08pt>
+File: linear_forms/solutions/1/b/Figure.png Graphic file (type png)
+<use linear_forms/solutions/1/b/Figure.png>
+Package pdftex.def Info: linear_forms/solutions/1/b/Figure.png  used on input l
+ine 55.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+))
+[4 <./linear_forms/solutions/2006/2/11/Figures/line.pdf>] [5
 
- <./linear_forms/solutions/2006/2/11/Figures/line.pdf>] (./gvv_cbse_linalg.aux)
+ <./linear_forms/solutions/1/b/Figure.png>] (./gvv_cbse_linalg.aux)
 Package rerunfilecheck Info: File `gvv_cbse_linalg.out' has not changed.
 (rerunfilecheck)             Checksum: 4E9511405D35F10E796B4E736849A702;184.
  ) 
 Here is how much of TeX's memory you used:
- 44262 strings out of 478994
- 988295 string characters out of 5864752
- 1536018 words of memory out of 5000000
- 60811 multiletter control sequences out of 15000+600000
+ 44320 strings out of 478994
+ 989333 string characters out of 5864751
+ 1536770 words of memory out of 5000000
+ 60850 multiletter control sequences out of 15000+600000
  484627 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,18n,111p,507b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1673,10 +1644,10 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on gvv_cbse_linalg.pdf (4 pages, 143487 bytes).
+Output written on gvv_cbse_linalg.pdf (5 pages, 163527 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 88 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
