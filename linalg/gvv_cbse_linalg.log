@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.26)  28 AUG 2021 09:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  30 SEP 2021 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,7 +364,7 @@ Package: cite 2015/02/27  v 5.5
 Package: cases 2020/03/29 ver 3.2
 \numc@numwid=\dimen179
 )
-(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
+(/home/user/texmf/tex/latex/tfslatex/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
@@ -1597,29 +1597,39 @@ File: utxsyc.fd 2000/12/15 v3.1
 \openout5 = `gvv_cbse_linalg.toc'.
 
 
-(./vectors/problems.tex (./vectors/solutions/2008/14/main.tex
-<vectors/solutions/2008/14/Collinear.png, id=42, 387.4475pt x 262.9825pt>
+(./vectors/problems.tex (./vectors/solutions/2006/1/main.tex
+<vectors/solutions/2006/1/line division.png, id=42, 371.3875pt x 252.945pt>
+File: vectors/solutions/2006/1/line division.png Graphic file (type png)
+<use vectors/solutions/2006/1/line division.png>
+Package pdftex.def Info: vectors/solutions/2006/1/line division.png  used on in
+put line 12.
+(pdftex.def)             Requested size: 252.0pt x 171.63751pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./vectors/solutions/2008/14/main.tex
+<vectors/solutions/2008/14/Collinear.png, id=45, 387.4475pt x 262.9825pt>
 File: vectors/solutions/2008/14/Collinear.png Graphic file (type png)
 <use vectors/solutions/2008/14/Collinear.png>
 Package pdftex.def Info: vectors/solutions/2008/14/Collinear.png  used on input
  line 38.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-)
-(./vectors/solutions/2006/17/main.tex
+) (./vectors/solutions/2006/17/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./vectors/solutions/2008/14/Collinear.png>]
-<vectors/solutions/2006/17/collinear.png, id=78, 397.485pt x 268.00125pt>
+ <./vectors/solutions/2006/1/line division.png>]
+<vectors/solutions/2006/17/collinear.png, id=82, 397.485pt x 268.00125pt>
 File: vectors/solutions/2006/17/collinear.png Graphic file (type png)
 <use vectors/solutions/2006/17/collinear.png>
 Package pdftex.def Info: vectors/solutions/2006/17/collinear.png  used on input
  line 36.
 (pdftex.def)             Requested size: 252.0pt x 169.91309pt.
 ) (./vectors/solutions/2006/16/Assignment 1.tex
-<vectors/solutions/2006/16/Python- Square Image.png, id=81, 391.4625pt x 269.50
+<vectors/solutions/2006/16/Python- Square Image.png, id=85, 391.4625pt x 269.50
 688pt>
 File: vectors/solutions/2006/16/Python- Square Image.png Graphic file (type png
 )
@@ -1627,22 +1637,26 @@ File: vectors/solutions/2006/16/Python- Square Image.png Graphic file (type png
 Package pdftex.def Info: vectors/solutions/2006/16/Python- Square Image.png  us
 ed on input line 33.
 (pdftex.def)             Requested size: 252.0pt x 173.49544pt.
-)
-(./vectors/solutions/2008/23/main.tex [2 <./vectors/solutions/2006/17/collinear
-.png> <./vectors/solutions/2006/16/Python- Square Image.png>]
-<vectors/solutions/2008/23/download.png, id=123, 375.4025pt x 252.945pt>
+) [2 <./vectors/solutions/2008/14/Collinear.png> <./vectors/solutions/2006/17/c
+ollinear.png> <./vectors/solutions/2006/16/Python- Square Image.png>]
+(./vectors/solutions/2008/23/main.tex
+<vectors/solutions/2008/23/download.png, id=122, 375.4025pt x 252.945pt>
 File: vectors/solutions/2008/23/download.png Graphic file (type png)
 <use vectors/solutions/2008/23/download.png>
 Package pdftex.def Info: vectors/solutions/2008/23/download.png  used on input 
 line 43.
 (pdftex.def)             Requested size: 252.0pt x 169.80034pt.
-))
-(./linear_forms/problems.tex
-(./linear_forms/solutions/2006/2/11/Assignment 1_New_Edited_9.tex
+)) (./linear_forms/problems.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+(./linear_forms/solutions/2006/2/11/Assignment 1_New_Edited_9.tex
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
  [3 <./vectors/solutions/2008/23/download.png>]
-<linear_forms/solutions/2006/2/11/Figures/line.pdf, id=164, 433.62pt x 289.08pt
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<linear_forms/solutions/2006/2/11/Figures/line.pdf, id=163, 433.62pt x 289.08pt
 >
 File: linear_forms/solutions/2006/2/11/Figures/line.pdf Graphic file (type pdf)
 
@@ -1650,41 +1664,42 @@ File: linear_forms/solutions/2006/2/11/Figures/line.pdf Graphic file (type pdf)
 Package pdftex.def Info: linear_forms/solutions/2006/2/11/Figures/line.pdf  use
 d on input line 106.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-) (./linear_forms/solutions/1/b/main.tex
-<linear_forms/solutions/1/b/Figure.png, id=168, 433.62pt x 289.08pt>
+)
+(./linear_forms/solutions/1/b/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./linear_forms/solutions/2006/2/11/Figures/line.pdf>]
+<linear_forms/solutions/1/b/Figure.png, id=214, 433.62pt x 289.08pt>
 File: linear_forms/solutions/1/b/Figure.png Graphic file (type png)
 <use linear_forms/solutions/1/b/Figure.png>
 Package pdftex.def Info: linear_forms/solutions/1/b/Figure.png  used on input l
 ine 55.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./linear_forms/solutions/2006/2/11/Figures/line.pdf>]
-(./linear_forms/solutions/2006/1/assignment1new.tex
-<linear_forms/solutions/2006/1/Figures/line.pdf, id=217, 433.62pt x 289.08pt>
-File: linear_forms/solutions/2006/1/Figures/line.pdf Graphic file (type pdf)
-<use linear_forms/solutions/2006/1/Figures/line.pdf>
-Package pdftex.def Info: linear_forms/solutions/2006/1/Figures/line.pdf  used o
-n input line 34.
+(/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
+(./linear_forms/solutions/2008/19/Assignment 1.tex
+<linear_forms/solutions/2008/19/IMG-20210830-WA0000.jpg, id=216, 433.62pt x 289
+.08pt>
+File: linear_forms/solutions/2008/19/IMG-20210830-WA0000.jpg Graphic file (type
+ jpg)
+<use linear_forms/solutions/2008/19/IMG-20210830-WA0000.jpg>
+Package pdftex.def Info: linear_forms/solutions/2008/19/IMG-20210830-WA0000.jpg
+  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)) [5 <./linear_forms/solutions/1/b/Figure.png> <./linear_forms/solutions/2006/
-1/Figures/line.pdf>] (./gvv_cbse_linalg.aux)
+)) [5 <./linear_forms/solutions/1/b/Figure.png> <./linear_forms/solutions/2008/
+19/IMG-20210830-WA0000.jpg>]
+(./gvv_cbse_linalg.aux)
 Package rerunfilecheck Info: File `gvv_cbse_linalg.out' has not changed.
 (rerunfilecheck)             Checksum: 4E9511405D35F10E796B4E736849A702;184.
  ) 
 Here is how much of TeX's memory you used:
- 44314 strings out of 478994
- 989583 string characters out of 5864751
- 1536265 words of memory out of 5000000
- 60827 multiletter control sequences out of 15000+600000
- 484627 words of font info for 204 fonts, out of 8000000 for 9000
+ 44337 strings out of 478994
+ 990141 string characters out of 5864752
+ 1534346 words of memory out of 5000000
+ 60834 multiletter control sequences out of 15000+600000
+ 485977 words of font info for 206 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 102i,18n,111p,507b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,18n,111p,507b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-dist/fonts/type1/public/txf
 onts/rtxr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr
@@ -1694,10 +1709,10 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on gvv_cbse_linalg.pdf (5 pages, 170143 bytes).
+Output written on gvv_cbse_linalg.pdf (5 pages, 193098 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 115 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
